@@ -10,8 +10,8 @@ function Header() {
         <div className='wrapperright'>
             <ul>
                 <Link to='/'>Home</Link>
-                <li>Servies</li>
-                <li>Contact Us</li>
+                <Link to='/service'>Services</Link>
+                <Link to='/contactus'>Contactus</Link>
             </ul>
         </div>
         
