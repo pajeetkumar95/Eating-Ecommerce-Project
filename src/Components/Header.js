@@ -11,7 +11,7 @@ function Header() {
             <ul>
                 <Link to='/'>Home</Link>
                 <Link to='/service'>Services</Link>
-                <Link to='/contactus'>Contactus</Link>
+                <Link to='/contactus'>Contact us</Link>
             </ul>
         </div>
         

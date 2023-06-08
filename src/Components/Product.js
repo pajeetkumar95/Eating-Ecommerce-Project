@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+
 function Product() {
 
     const [details, setDetails] = useState([])
@@ -8,7 +9,7 @@ function Product() {
     useEffect(() => {
         axios.get("https://www.themealdb.com/api/json/v1/1/categories.php")
         .then((result) => {
-            console.log(result.data.categories)
+            // console.log(result.data.categories)
             setDetails(result.data.categories)
         })
     }, [])
